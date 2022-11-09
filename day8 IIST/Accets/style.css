@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./bootstrap/images/download.gif) center center;
+}
+
+/* header part start */
+.cont{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+header{ 
+    background-color: purple;
+    height: 30px;
+    border-bottom: 2px solid red;
+    color: white;
+    font-size: 12px;
+}
+.header_left{
+    line-height: 30px;
+}
+.header_right{
+    display: flex;
+    justify-content: end;
+}
+.header_right p{
+    border: 1px solid rgb(155, 26, 26);
+    border-right: 1px solid white;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.header_right a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
+/* Header part end */
+/* logo part start */
+
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search input{
+    width: 65%;
+    border: 1px solid rgb(125, 4, 4);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+button{
+    border: 1px solid rgb(47, 73, 126);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.logo_right{
+   padding-top: 30px;
+}
+.logo1{
+    border-right: 1px solid blue;
+    padding-right: 5px;
+    margin-right: 10px;
+    height: 50px;
+}
+.logo2{
+    height: 30px;
+}
+.benner{
+    border: 2px solid red;
+    padding: 10px;
+}
+/* logo part end */
+
+/* hero main part start */
+.slider img{
+    padding: 10px 0;
+}
+/* tab part start */
+
+.tab_1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+.tab_1 a:hover{
+    color: green;
+}
+/* tab part end */
+
+/* notice part start */
+.notice ul{
+    list-style: none;
+    width: 60%;
+    margin-top: 20px;
+}
+.notice {
+    margin: 20px;
+    font-size: 15px;
+}
+.notice h4{
+    font-size: medium;
+    color: purple;
+}
+ .btn a{  
+    text-decoration: none;
+ }
+.btn{
+   background-color: rgb(141, 51, 51);
+}
+/* notice part end */
+/* hero main part end */
+/* hero sidebar start */
+
+
+
+
+/* hero sidebar end */
